@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hisham Mohammed Al Dawawsai | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #003060;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #004080;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    .skills ul, .projects ul, .languages ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li, .projects li, .languages li {
+      background-color: #e7ecf1;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #003060;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media(max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4Xqq9Wl4g6Q58F2ZvoVKIFJ2IgddPqgtQA&s" alt="صورة شخصية">
+    <h1>هشام محمد الدواوسة</h1>
+    <p>طالب هندسة نظم ذكية الحاسوب | Computer Smart Systems Engineering Student</p>
+    <p>20 عامًا | غزة - فلسطين</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">من أنا | About</a></li>
+      <li><a href="#skills">المهارات | Skills</a></li>
+      <li><a href="#projects">مشاريعي | Projects</a></li>
+      <li><a href="#languages">اللغات | Languages</a></li>
+      <li><a href="#contact">تواصل | Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="card">
+    <h2 class="section-title">من أنا | About Me</h2>
+    <p>
+      أنا هشام محمد الدواوسة، أدرس هندسة نظم ذكية في جامعة محلية بغزة. أتمتع بشغف كبير في التكنولوجيا والبرمجة وتطوير المواقع، وأسعى دائمًا لتطوير نفسي ومهاراتي.
+      أطمح لأن أكون مهندسًا قادرًا على تقديم حلول ذكية تدمج بين البرمجيات والأنظمة الذكية.
+    </p>
+    <p>
+      I am Hisham Mohammed Al Dawawsai, a passionate student of Computer Smart Systems Engineering. I enjoy solving problems, learning new technologies, and building digital solutions that matter.
+    </p>
+  </section>
+
+  <section id="skills" class="card skills">
+    <h2 class="section-title">المهارات | Skills</h2>
+    <ul>
+      <li>احتراف Excel | Advanced Excel</li>
+      <li>احتراف Word | Advanced Word</li>
+      <li>معرفة جيدة بلغة Java | Good Knowledge of Java</li>
+      <li>تصميم مواقع باستخدام HTML & CSS | Web Design with HTML & CSS</li>
+      <li>تصميم واجهات المستخدم | UI Design Basics</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="card projects">
+    <h2 class="section-title">مشاريعي | My Projects</h2>
+    <ul>
+      <li>موقع شخصي (Portfolio Website)</li>
+      <li>بطاقة منتج متجاوبة (Responsive Product Card)</li>
+      <li>قائمة تنقل ذكية (Responsive Navigation Menu)</li>
+      <li>نموذج تواصل منسق (Styled Contact Form)</li>
+    </ul>
+  </section>
+
+  <section id="languages" class="card languages">
+    <h2 class="section-title">اللغات | Languages</h2>
+    <ul>
+      <li>العربية – اللغة الأم | Arabic - Native</li>
+      <li>الإنجليزية – جيد جدًا | English - Very Good</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card contact">
+    <h2 class="section-title">التواصل | Contact</h2>
+    <div class="contact-info">
+      <p><strong>📞 واتساب | WhatsApp:</strong> +972598773516</p>
+      <p><strong>📘 فيسبوك | Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100045698280699" target="_blank">اضغط هنا | Click here</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 هشام محمد الدواوسة | Hisham Mohammed Al Dawawsai. جميع الحقوق محفوظة.
+  </footer>
+
+</body>
+</html>

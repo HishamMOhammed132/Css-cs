@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple CSS Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 100px);
+            gap: 10px;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+            font-size: 18px;
+        }
+
+        .item1 { background-color: #ff6666; }
+        .item2 { background-color: #ffcc66; }
+        .item3 { background-color: #66cc66; }
+        .item4 { background-color: #66cccc; }
+        .item5 { background-color: #6699cc; }
+        .item6 { background-color: #9966cc; }
+        .item7 { background-color: #cc66cc; }
+        .item8 { background-color: #cccc66; }
+        .item9 { background-color: #66cc99; }
+    </style>
+</head>
+<body>
+
+    <h2>3x3 Grid Layout</h2>
+
+    <div class="grid-container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div>
+        <div class="grid-item item7">7</div>
+        <div class="grid-item item8">8</div>
+        <div class="grid-item item9">9</div>
+    </div>
+
+</body>
+</html>
